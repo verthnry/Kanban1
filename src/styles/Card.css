@@ -1,0 +1,68 @@
+
+/* Container Styles */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid silver;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+    padding: 20px;
+}
+
+/* Card Heading Styles */
+.cardHeading {
+    margin: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* User Image Styles */
+.image {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+/* User Status Indicator Styles */
+.status {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    background: silver;
+    border-radius: 50%;
+}
+
+/* Card Title Styles */
+.title {
+    font-weight: 200;
+    width: 300px;
+    padding: 0px 15px;
+}
+
+/* Tags Container Styles */
+.tags {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+/* Tag Styles */
+.tag {
+    color: grey;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    min-width: 80px; /* Adjust based on content */
+}

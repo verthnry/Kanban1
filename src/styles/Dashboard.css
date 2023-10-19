@@ -1,0 +1,53 @@
+
+/* Container Styles */
+.container {
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+    justify-content: space-evenly;
+}
+
+/* Dashboard Styles */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+    background-color: whitesmoke;
+}
+
+/* Card Heading Styles */
+.cardHeading1 {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* User Image Styles */
+.image {
+    margin-right: 5px;
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+/* User Avatar Styles */
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* Select List Styles */
+.selectList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
